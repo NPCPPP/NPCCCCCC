@@ -7,19 +7,25 @@
 - Python 3.11+
 - Pygame
 
-可以使用以下命令安装依赖：
+## 快速开始
 
-```bash
-pip install pygame
-```
+1. （可选）创建并激活虚拟环境：
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # Windows 使用 .venv\\Scripts\\activate
+   ```
+2. 安装依赖：
+   ```bash
+   pip install pygame
+   ```
+3. 在项目根目录运行游戏：
+   ```bash
+   python game.py
+   ```
 
-## 运行游戏
+## 操作说明
 
-```bash
-python game.py
-```
-
-游戏中按键说明：
+启动后即可进入游戏界面，按以下按键进行操作：
 
 - ← / A：向左切换车道
 - → / D：向右切换车道
